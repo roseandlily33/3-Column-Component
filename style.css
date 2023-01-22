@@ -31,13 +31,12 @@ main {
     margin: 3em;
 }
 #div1, #div2, #div3{
-    height: 60%;
+    height: 65%;
     width: 35%;
     display: block;
-    padding: 2.5em;
-    line-height: 1.6em;
-    padding-block: 2em;
+    line-height: 1.4em;
     color: var(--Transparentwhite);
+    padding: 2em;
 }
 #div1{
     background-color: var(--Brightorange);
@@ -46,13 +45,19 @@ main {
 }
 #div1 img, #div2 img, #div3 img{
     display: block;
+    padding-bottom: 2em;
     
 }
 #div1 h1, #div2 h1, #div3 h1{
     color: var(--Transparentwhite);
     font-weight: 900;
     font-family: var(--Big);
-   
+    padding-bottom: 1.5em;
+}
+#div1 p, #div2 p, #div3 p{
+    padding-bottom: 2.5em;
+    line-height: 1.5em;
+    
 }
 #div2{
     background-color: var(--Darkcyan);
@@ -67,16 +72,27 @@ main {
 button{
     border-radius: 50px;
     padding: 2em;
-    width: 100%;
+    width: 80%;
     background-color: var(--Transparentwhite);
     border: none;
+    margin-top: 6em;
+    position: relative;
+}
+button:hover{
+    background-color: lightslategray;
+    color: var(--Transparentwhite);
+    box-shadow: 2px 2px var(--Transparentwhite);
 }
 #div1 button{
     color: var(--Brightorange);
 }
  #div2 button{
     color: var(--Darkcyan);
+    margin-top: 4.5em;
 }
  #div3 button{
     color: var(--Verydarkcyan);
+}
+.attribution{
+    text-align: center;
 }
