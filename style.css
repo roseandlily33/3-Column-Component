@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -10,6 +12,8 @@
     --Verydarkcyan: hsl(179, 100%, 13%);
     --Transparentwhite: hsla(0, 0%, 100%, 0.75);
     --verylightgray: hsl(0, 0%, 95%);
+    --deca: 'Lexend Deca', sans-serif;
+    --Big: 'Big Shoulders Display', cursive;
 
 }
 
@@ -22,36 +26,57 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: var(--deca);
+    
+    margin: 3em;
+}
+#div1, #div2, #div3{
+    height: 60%;
+    width: 35%;
+    display: block;
+    padding: 2.5em;
+    line-height: 1.6em;
+    padding-block: 2em;
+    color: var(--Transparentwhite);
 }
 #div1{
     background-color: var(--Brightorange);
-    border-top-left-radius: 15%;
-    border-bottom-left-radius: 15%;
-
+    border-top-left-radius: 3%;
+    border-bottom-left-radius: 3%;
+}
+#div1 img, #div2 img, #div3 img{
+    display: block;
+    
+}
+#div1 h1, #div2 h1, #div3 h1{
+    color: var(--Transparentwhite);
+    font-weight: 900;
+    font-family: var(--Big);
+   
 }
 #div2{
     background-color: var(--Darkcyan);
 }
 #div3{
     background-color: var(--Verydarkcyan);
-    border-top-right-radius: 15%;
-    border-bottom-right-radius: 15%;
+    border-top-right-radius: 3%;
+    border-bottom-right-radius: 3%;
 }
 
 /* button styling */
-.button{
-    border-radius: 25%;
-    margin: 2em;
+button{
+    border-radius: 50px;
     padding: 2em;
-    width: 50%;
+    width: 100%;
     background-color: var(--Transparentwhite);
+    border: none;
 }
-.button div1{
+#div1 button{
     color: var(--Brightorange);
 }
-.button div2{
+ #div2 button{
     color: var(--Darkcyan);
 }
-.button div3{
+ #div3 button{
     color: var(--Verydarkcyan);
 }
