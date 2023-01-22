@@ -19,12 +19,12 @@ Users should be able to:
 - See hover states for interactive elements
 
 ### Screenshot
+<img width="976" alt="Screenshot 2023-01-21 at 8 43 05 PM" src="https://user-images.githubusercontent.com/109821108/213895913-765090f3-d661-4e39-9feb-30fb9cd48a85.png">
 
 
 
 ### Links
-Live Site URL: 
-
+Live Site URL: https://roseandlily33.github.io/3-Column-Component/
 ## My process
 I first started with the background, made the main which holds all the 3 different div's inside for each section, gave all of those a div id, the made them all have the colours, styling inside css, added in the information and pictures, added the styling again, then I did the @media's. Started with a website first approach.
 
